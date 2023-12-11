@@ -1,0 +1,21 @@
+#spring:
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/library
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+#server:
+#  port: 8090
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: 96a7e036bcb55ab1a4f6
+            clientSecret: ce3966ea1650485c33b895e3172a4a441952029a
+logging:
+  level:
+    root: debug
